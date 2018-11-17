@@ -13,7 +13,7 @@ body{
     width: 100%;
     padding-top: 0%;
     margin-top: 0%;
-    height: 650px;
+    height: 550px;
     color: white;
     background-image: url("images/portada.jpg");
     background-repeat: no-repeat; 
@@ -96,7 +96,10 @@ section{
     padding-bottom: 3%;    
     width: 100%;
     margin: auto;
-    position: relative;
+    
+
+
+
     align-items: flex-start;
  
 }      
@@ -141,7 +144,7 @@ header{
     width: 100%;
 }
 .menunavul a{
-    padding: 2%;
+  
    
 }
 
@@ -354,13 +357,14 @@ footer .contenedor2 > div ul li a:hover {
 @media only screen and (max-width: 585px) {
     .contenedor{
         display: flex;
-  
+        align-items: center;
         padding: 0;
      
         
     }
     .contenedor > div{
-     width: 40%;
+     width: 100%;
+     
     }
     .contenedor2{    
          display:flex;
@@ -430,15 +434,16 @@ footer .contenedor2 > div ul li a:hover {
         justify-content: space-around;
     }
 
-    .contenedor{
-        flex-direction: column;
-        margin: 0;
-        padding: 0;
-        margin:auto;
+    section .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
         
     }
-    .contenedor > div{
-     width: 40%;
+
+    .contenedor .ex5{    
+        width: 80%;
+
     }
     .contenedor2{
      
@@ -481,6 +486,14 @@ footer .contenedor2 > div ul li a:hover {
        
     }
 
+    #titulo2{
+        font-size: 2em;
+    }
+
+    footer .contenedor2 > div {
+        padding-bottom: 15%;
+    }
+
     footer .contenedor2 > div ul li{
         text-decoration: none;
         font-size:1.2em;
@@ -493,7 +506,7 @@ footer .contenedor2 > div ul li a:hover {
         font-size:1em;
         transition: all 0.4s ease;
         color:#999;
-        tex 
+       
     }
 
     footer .contenedor2 > div ul li a:hover {
@@ -503,6 +516,17 @@ footer .contenedor2 > div ul li a:hover {
         transition: all 0.4s ease;
         color:#999;
     }
+    #p1 p{
+        text-align: center;
+    }
+
+    .footer2{
+        margin:auto;
+        padding: 0;
+        
+    }
+    
+    
 }
 
 @media only screen and (max-width: 1000px) {
@@ -533,10 +557,10 @@ footer .contenedor2 > div ul li a:hover {
     .menunavul{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        margin: auto;
+         margin: auto;
         justify-content: center;
         padding-bottom: 5%;
+        padding: 0;
        
     }
     .menunavul li{
@@ -589,7 +613,7 @@ body{
     display:flex;    
 }
 .logox{
-    width: 25%;
+    width: 180px;
     height:auto;
     margin:0;  
     display: flex;
@@ -618,10 +642,10 @@ li{
 
 .imagen
 {
-display: flex;
+
 align-items: center;
-align-content: center;
-text-justify: center;
+margin:auto;
+padding-top: 2%;
 }
 
 .logox{

@@ -426,7 +426,7 @@ footer .contenedor2 > div ul li a:hover {
     }
     .contenedor5 > div
     {
-        width:50%;
+        width:90%;
     }
     .parrafo2{
      flex-direction: column;
@@ -484,6 +484,7 @@ footer .contenedor2 > div ul li a:hover {
     .parrafo2{
      flex-direction: column;
     }       
+  
     .menunavul{
         display: flex;
         flex-direction: column;
@@ -494,6 +495,7 @@ footer .contenedor2 > div ul li a:hover {
     }
     .menunavul li{
         width: 100%;
+       text-align: center;
         height: auto;
         margin: auto;
     }
@@ -507,9 +509,17 @@ footer .contenedor2 > div ul li a:hover {
         display: flex;
         justify-content: center;
         margin: auto;
-        margin-left: 30%;
+       
     }
-    
+
+    #titulo2{
+        font-size: 2em;
+    }
+
+    footer .contenedor2 > div {
+        padding-bottom: 15%;
+    }
+
     footer .contenedor2 > div ul li{
         text-decoration: none;
         font-size:1.2em;
@@ -531,6 +541,15 @@ footer .contenedor2 > div ul li a:hover {
         font-size:1em;
         transition: all 0.4s ease;
         color:#999;
+    }
+    #p1 p{
+        text-align: center;
+    }
+
+    .footer2{
+        margin:auto;
+        padding: 0;
+        
     }
 }
 
@@ -562,10 +581,10 @@ footer .contenedor2 > div ul li a:hover {
     .menunavul{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        margin: auto;
+         margin: auto;
         justify-content: center;
         padding-bottom: 5%;
+        padding: 0;
        
     }
     .menunavul li{
@@ -586,6 +605,7 @@ footer .contenedor2 > div ul li a:hover {
         margin: auto;
         
     }
+
 
 }
 
@@ -645,10 +665,10 @@ li{
 
 .imagen
 {
-display: flex;
+
 align-items: center;
-align-content: center;
-text-justify: center;
+margin:auto;
+padding-top: 2%;
 }
 
 .logox{
